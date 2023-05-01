@@ -1,0 +1,128 @@
+
+1
+<?xml version="1.0" encoding="UTF-8" ?>
+2
+<!DOCTYPE html>
+3
+<HTML expr:dir='data:blog.languageDirection'>
+4
+<head>
+5
+<meta charset='utf-8'/>
+6
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
+7
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'/>
+8
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+9
+    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+10
+    <title><data:blog.pageName/> | <data:blog.title/></title>
+11
+    <b:else/>
+12
+    <title><data:blog.pageTitle/> | Your Blog Description</title>
+13
+    </b:if>
+14
+    <b:else/>
+15
+    <title><data:blog.pageName/> | <data:blog.title/></title>
+16
+    </b:if>
+17
+​
+18
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+19
+    <meta content='Your Blog Description here!' name='description'/>
+20
+    <meta content='Your Keywords here!' name='keywords'/>
+21
+    <meta content='Author Name here!' name='Author'/>
+22
+    <meta content='general' name='rating'/>
+23
+    <meta content='all' name='robots'/>
+24
+    <meta content='index, follow' name='robots'/>
+25
+    <meta content='id' name='geo.country'/>
+26
+    <meta content='1 days' name='revisit-after'/>
+27
+    <meta content='Indonesia' name='geo.placename'/>
+28
+</b:if>
+29
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+30
+  <link href='//fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'/>
+31
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'/>
+32
+<b:skin><![CDATA[
+33
+​
+34
+/* -----------------------------------------------
+35
+Blogger Template Style
+36
+Name:        Movies On
+37
+Author :     http://www.soratemplates.com
+38
+License:     Free Version
+39
+----------------------------------------------- */
+40
+​
+41
+body{background:#181818;color:#ddd;font:x-small Trebuchet MS;font-size:small;text-align:left;margin:0}
+42
+a:link{color:#D04721;text-decoration:none}
+43
+a:visited{color:#D04721;text-decoration:none}
+44
+a:hover{color:#ccc;text-decoration:none}
+45
+a img{border-width:0}
+46
+.selectnav {display: none;}
+47
+#headermenu,#headermenu1{width:100%;margin:0 auto;padding:0 0px;}
+48
+#headermenu1{margin-top:10px;-moz-border-radius:10px 10px 0 0; -webkit-border-radius:10px 10px 0 0; border-radius:10px 10px 0 0;}
+49
+#header-wrapper{width:1200px;height:120px;margin:0 auto;padding:0 10px}
+50
+#header-inner{background-position:center;margin-left:auto;margin-right:auto}
+51
+#header{float:left;width:400px;text-align:left;color:#D04721;margin:0}
+52
+.header .widget{margin:0 auto;padding:0px 0 0}
+53
+#header h1, #header p{line-height:1.2em;text-transform:none;letter-spacing:.1em;font: bold 47px Oswald;text-shadow:0 1px 1px #000;margin:0 auto;padding:5px 5px .15em;color:#ddd;}
+54
+#header a{text-decoration:none}
+55
+#header a:hover{color:#eee}
+56
+#header .description{max-width:100%;text-transform:uppercase;letter-spacing:.01em;line-height:1.2em;font:12px Oswald;color:#ddd;margin:0 auto;padding:0 5px 5px}
+57
+#header img {
+58
+  margin-left: auto;
+59
+  margin-right: auto;
+60
+  float: left;
+61
+  margin-top: 22px;
+62
+}
+63
+#navbar-iframe{height:0;visibility:hidden;display:none}
+Template: Edit Template
